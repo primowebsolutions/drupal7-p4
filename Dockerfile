@@ -5,7 +5,7 @@ COPY drupal.sh /root/
 RUN chmod u+x /root/drupal.sh
 RUN sh /root/drupal.sh
 
-COPY src/all.tar.gz /var/www/html/sites
+COPY src/all.tar.gz /var/www/html/sites/
 COPY app.sh /root/
 RUN chmod u+x /root/app.sh
 RUN sh /root/app.sh
