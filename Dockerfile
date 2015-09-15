@@ -1,5 +1,5 @@
 FROM php:5.6-apache
-COPY config/php.ini /usr/local/etc/php/
+COPY config/php.ini /usr/local/etc/php/php.ini
 COPY src/ /var/www/html/
 RUN a2enmod rewrite
 
