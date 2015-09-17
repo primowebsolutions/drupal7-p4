@@ -12,7 +12,7 @@ else
 	echo "$file not found."
 fi
 
-dir="/var/www/html/sites/default/files"
+dir="/var/www/html/sites/default/files/"
 if [ -f "$dir" ]
 then
         chmod -R 2775 $dir
